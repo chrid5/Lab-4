@@ -1,0 +1,14 @@
+{
+    "name": "student/lab4",
+    "description": "Examples and Exercises of PHP Libraries",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Derek Christian",
+            "email": "christianderek19@gmail.com"
+        }
+    ],
+    "require": {
+        "latitude/latitude": "^1.2"
+    }
+}

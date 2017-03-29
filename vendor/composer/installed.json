@@ -1,0 +1,46 @@
+[
+    {
+        "name": "latitude/latitude",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/shadowhand/latitude.git",
+            "reference": "eeba1423c26de71a794f2101681d34cfc29d484c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/shadowhand/latitude/zipball/eeba1423c26de71a794f2101681d34cfc29d484c",
+            "reference": "eeba1423c26de71a794f2101681d34cfc29d484c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "eloquent/liberator": "^2.0",
+            "phpunit/phpunit": "^5.6.8",
+            "spatie/7to5": "^1.0"
+        },
+        "time": "2017-03-01T04:54:10+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Latitude\\QueryBuilder\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Woody Gilk",
+                "email": "woody.gilk@gmail.com",
+                "homepage": "https://github.com/shadowhand"
+            }
+        ],
+        "description": "A SQL query builder with zero dependencies"
+    }
+]
